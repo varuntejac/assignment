@@ -54,6 +54,6 @@ public abstract class Employeee {
 				+ ", NofLeavesAvail=" + NofLeavesAvail + "]";
 	}
 //abstract method
-	public abstract void CalSal() throws CustomException;
+	public abstract double CalSal();
 
 }
