@@ -6,16 +6,7 @@ public class UsingPeople {
 		Address a1=new Address();
 		a1.setDoorNo("1-54");
 		a1.setStreet("Ramalayam Street");
-		a1.setPinCode(523273);
-		
-		Employeee e=new Employeee();
-		e.setEmpId(12);
-		e.setEmpName("Varun Teja");
-		e.setObj(a1);
-		e.setBasicPay(25740.66);
-		e.setNofLeavesAvail(35);
-		System.out.println(e);
-		
+		a1.setPinCode(523273);	
 		
 		TechnicalEmployee te=new TechnicalEmployee();
 		te.setEmpId(2);

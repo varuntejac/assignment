@@ -20,6 +20,7 @@ public class TechnicalEmployee extends Employeee{
 	public void setSkill2(String skill2) {
 		this.skill2 = skill2;
 	}
+@Override
 	public double CalSal()
 	{
 		salary=getBasicPay()+getBasicPay()*0.12;

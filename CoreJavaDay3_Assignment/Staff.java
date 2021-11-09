@@ -26,7 +26,7 @@ public class Staff extends Employeee{
 	public void setTitle2(String title2) {
 		this.title2 = title2;
 	}
-	
+	@Override
 	public double CalSal()
 	{
 		salary=getBasicPay()+getBasicPay()*0.18;

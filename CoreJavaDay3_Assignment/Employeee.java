@@ -1,6 +1,6 @@
 package com.sonata;
 
-public  class Employeee {
+public abstract class Employeee {
 	int empId;
 	String empName;
 	Address obj;
@@ -53,5 +53,7 @@ public  class Employeee {
 		return "Employee1 [empId=" + empId + ", empName=" + empName + ", obj=" + obj + ", basicPay=" + basicPay
 				+ ", NofLeavesAvail=" + NofLeavesAvail + "]";
 	}
+//abstract method
+	public abstract void CalSal() throws CustomException;
 
 }
